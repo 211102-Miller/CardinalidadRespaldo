@@ -6,7 +6,9 @@ from tkinter import messagebox
 from markupsafe import re
 import random
 
-import AB1,BB1,BC1,BEyCE,CC1,CD1,DB1
+import AB2,BB2,BC2,CB2,CC2,CE2,CX2YBX2
+
+#import AB1,BB1,BC1,BEyCE,CC1,CD1,DB1
 #Ordenamiento
 import EE1,EF1,FF1,FG1,FH1,FI1,GG1,GH,HF,HH
 #Cardinalidad
@@ -173,7 +175,7 @@ class VentanaPrincipal:
 
         #trancision = AB.trancicion + BB.trancicion + BC.transicion + BG.transicion + CC.transicion + CD.trasicion + DD.transicion + DE.transicion + DG.transicion + EE.transicion + EF.transicion + FD.transicion
         #trancision = trancicionAconB.trancicion + trancicionBconB.trancicion + trancicionBconC.trancicion + trancicionBconD.trancicion + trancicionBconF.trancicion + trancicionCconC.trancicion + trancicionCconD.trancicion + trancicionDconB.trancicicon + trancicionDconD.trancicion
-        trancision = AB1.transicion + BB1.transicion + BC1.transicion + BEyCE.transicion + CC1.transicion + CD1.transicion +DB1.transicion + EE1.transicion + EF1.transicion + FF1.transicion +FG1.transicion + FH1.transiciones +FI1.transicion + GG1.transicion +GH.transicion + HF.transiciones + HH.transicion +II1.transicion + IJ1.transicion + JJ.transicion + JK.transicion +JO.transicion +KK.transicion +KL.transicion + LL1.transicion  +LM.transicion +LO.transicion +MM.transicion + MN.transicion +NL.transicion
+        trancision = AB2.transicion+BB2.transicion+BC2.transicion+CB2.transicion+CC2.transicion+CX2YBX2.transicion+ CE2.transicion + EE1.transicion + EF1.transicion + FF1.transicion +FG1.transicion + FH1.transiciones +FI1.transicion + GG1.transicion +GH.transicion + HF.transiciones + HH.transicion +II1.transicion + IJ1.transicion + JJ.transicion + JK.transicion +JO.transicion +KK.transicion +KL.transicion + LL1.transicion  +LM.transicion +LO.transicion +MM.transicion + MN.transicion +NL.transicion
 
         #mover cabezal
         def mover_derecha(cual):
